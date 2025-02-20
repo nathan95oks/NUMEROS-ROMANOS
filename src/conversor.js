@@ -26,6 +26,9 @@ function convertir(a){
     if(a===9){
         return "IX";
     };
+    if(a===10){
+        return "X";
+    };
 };
 
 export default convertir;
