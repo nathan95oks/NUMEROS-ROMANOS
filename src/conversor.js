@@ -17,6 +17,9 @@ function convertir(a){
     if(a===6){
         return "VI";
     };
+    if(a===7){
+        return "VII";
+    };
 };
 
 export default convertir;
