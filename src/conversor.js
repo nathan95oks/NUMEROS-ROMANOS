@@ -5,6 +5,9 @@ function convertir(a){
     if(a===2){
         return "II";
     };
+    if(a===3){
+        return "III";
+    };
 };
 
 export default convertir;
