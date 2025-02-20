@@ -23,6 +23,9 @@ function convertir(a){
     if(a===8){
         return "VIII";
     };
+    if(a===9){
+        return "IX";
+    };
 };
 
 export default convertir;
