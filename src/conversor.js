@@ -11,6 +11,9 @@ function convertir(a){
     if(a===4){
         return "IV";
     };
+    if(a===5){
+        return "V";
+    };
 };
 
 export default convertir;
