@@ -1,6 +1,8 @@
 function convertir(a) {
     const valores = [
-        { numero: 100, romano:"C"},
+        { numero: 300 , romano:"CCC"},
+        { numero: 200 , romano:"CC"},
+        { numero: 100 , romano:"C"},
         { numero: 90, romano: "XC"},
         { numero: 50, romano: "L"},
         { numero: 40, romano:"XL"},
