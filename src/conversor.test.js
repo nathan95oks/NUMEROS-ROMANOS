@@ -31,4 +31,14 @@ describe("Deberia convertir los numeros a romanos",()=>{
   it("Deberia convertir un numero 10",()=>{
     expect(convertir(10)).toEqual("X");
   });
+  it("Deberia convertir un numero 11",()=>{
+      expect(convertir(11)).toEqual("XI");
+  });
+  it("Deberia convertir un numero 15",()=>{
+    expect(convertir(15)).toEqual("XV");
+  })
+  it("Deberia convertir un numero 20",()=>{  
+    expect(convertir(20)).toEqual("XX");  
+  });
+
 });
