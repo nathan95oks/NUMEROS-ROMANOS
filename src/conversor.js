@@ -1,5 +1,7 @@
 function convertir(a) {
     const valores = [
+        { numero: 500 , romano:"D"},
+        { numero: 400 , romano:"CD"},
         { numero: 300 , romano:"CCC"},
         { numero: 200 , romano:"CC"},
         { numero: 100 , romano:"C"},

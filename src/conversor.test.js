@@ -61,4 +61,11 @@ describe("Deberia convertir los numeros a romanos",()=>{
   it("Deberia convertir un numero 300",()=>{
     expect(convertir(300)).toEqual("CCC");
   });
+  it("Deberia convertir un numero 420",()=>{
+    expect(convertir(420)).toEqual("CDXX");
+  });
+  it("Deberia convertir un numero 500",()=>{
+    expect(convertir(500)).toEqual("D");
+  });
+
 });
