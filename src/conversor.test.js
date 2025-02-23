@@ -40,5 +40,16 @@ describe("Deberia convertir los numeros a romanos",()=>{
   it("Deberia convertir un numero 20",()=>{  
     expect(convertir(20)).toEqual("XX");  
   });
-
+  it("Deberia convertir un numero 40",()=>{
+    expect(convertir(40)).toEqual("XL");
+  });
+  it("Deberia convertir un numero 65",()=>{
+   expect(convertir(65)).toEqual("LXV");
+  });
+  it("Deberia convertir un numero 77",()=>{
+    expect(convertir(77)).toEqual("LXXVII");
+  })
+  it("Deberia convertir un numero 100",()=>{
+    expect(convertir(100)).toEqual("C");
+  });
 });
